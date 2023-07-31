@@ -21,5 +21,7 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('data_render/',data_render,name='data_render'),
-    path('ifconditions/',ifconditions,name='ifconditions')
+    path('ifconditions/',ifconditions,name='ifconditions'),
+    
+    
 ]

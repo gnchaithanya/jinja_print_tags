@@ -5,5 +5,8 @@ def data_render(request):
     d={'name':'Chaithanya','age':23}
     return render(request,'data_render.html',context=d)
 def ifconditions(request):
-    d={'a':10,'b':200,'c':30}
+    d={'a':10,'b':200,'c':30,'name':'chaithu'}
     return render(request,'ifconditions.html',context=d)
+
+
+
