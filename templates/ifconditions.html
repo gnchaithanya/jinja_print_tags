@@ -36,10 +36,15 @@
             {% endif %}
         {% endif %}-->
 
-        <h1>for loop statement</h1>
+         <h1>for loop statement</h1> 
         {% for i in name%}
             <h1>{{i}}</h1>
         {% endfor%}
+
+        <h1>URL Navigation</h1>
+        <h1>
+            <a href="{% url 'data_render' %}">click here to got to dta render page </a>
+        </h1>
     </center>
 </body>
 </html>
